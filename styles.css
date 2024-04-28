@@ -11,6 +11,18 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+footer {
+    background-color: #430043; 
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.rope-index {display:none;}
+.header{width:100%;}
+@media only screen and (min width:768px) {}
 
 ul li {
     display: inline;
@@ -22,15 +34,7 @@ a {
     text-decoration: none;
 }
 
-footer {
-    background-color: #430043; 
-    color: #ffffff;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+
 
 table {
     bgcolor: #FFA500;
@@ -38,7 +42,7 @@ table {
 }
 
 .square-container {
-    width: 530px;
+    width: 100%;
     height: 450px;
     background-color: #5e548e;
 }
@@ -103,6 +107,8 @@ table {
     margin-top: 20px;
     padding-bottom: 100px;
     overflow: hidden;
-}
+width:100%;}
+
+
 
         
