@@ -27,6 +27,22 @@ footer {
     height: 450px;
     background-color: #5e548e;}
 .navigation{display:none;}
+  .tall-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px; /* Adjust the width as needed */
+    height: 100%; /* Make it as tall as the viewport */
+    background-color: #f0f0f0; /* Optional: Set a background color */
+    padding: 20px; /* Optional: Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+  }
+
+  .tall-box p {
+    margin: 0; /* Remove default margins for paragraphs */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+  }
 
 @media only screen and (min-width:600px) 
 {
@@ -38,7 +54,9 @@ footer {
     padding: 5px;
     border-radius: 5px;
     display: inline;
-    margin-left: 200px;}
+    margin-left: 200px;
+    .tall-box{display:none;}
+    }
 
 ul li {
     display: inline;
