@@ -1,13 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #C8B6FF; }
+    background: #C8B6FF; 
+}
+
 header {
     background-color: #430043; 
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+}
 footer {
     background-color: #430043; 
     color: #ffffff;
@@ -15,7 +18,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+}
 .rope-index {display:none;}
 .header{width:100%;}
 .square-container {
@@ -23,22 +27,9 @@ footer {
     height: 450px;
     background-color: #5e548e;}
 .navigation{display:none;}
-    .tall-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20px; 
-    height: 100%; 
-    background-color: #5e548e;
-    padding: 20px; 
-    overflow-y: auto;}
-.tall-box p {
-    margin: 0; 
-    font-size: 16px; 
-    line-height: 1.5; 
-  }
 
-@media only screen and (min-width:800px) 
+
+@media only screen and (min-width:600px) 
 {
     .rope-index{display:block;width:50%;}
     .square-container{width:60%;}
@@ -48,14 +39,22 @@ footer {
     padding: 5px;
     border-radius: 5px;
     display: inline;
-    margin-left: 200px;}
+    margin-left: 200px;
+    }
     .tall-box {
-    display:none;}
-    .tall-box p {
-    display:none;}
-}
-
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px; /* Adjust the width as needed */
+    height: 100%; /* Make it as tall as the viewport */
+    background-color: #f0f0f0; /* Optional: Set a background color */
+    padding: 20px; /* Optional: Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */}
+.tall-box p {
+    margin: 0; /* Remove default margins for paragraphs */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+  }
 
 ul li {
     display: inline;
