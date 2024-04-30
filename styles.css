@@ -49,10 +49,8 @@ footer {
     border-radius: 5px;
     display: inline;
     margin-left: 200px;}
-    .tall-box {
-    display:none;}
-    .tall-box p {
-    display:none;}
+    .tall-box {display:none;}
+    .tall-box p{display:none;}
 
 
 
