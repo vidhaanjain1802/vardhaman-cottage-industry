@@ -27,7 +27,7 @@ footer {
     height: 450px;
     background-color: #5e548e;}
 .navigation{display:none;}
-    .tall-box {
+ .tall-box {
     position: absolute;
     top: 0;
     right: 0;
@@ -53,10 +53,8 @@ footer {
     border-radius: 5px;
     display: inline;
     margin-left: 200px;
-    .tall-box {
-    display:none;}
-    .tall-box p {
-    display:none;}
+    .tall-box {display:none;}
+    .tall-box p {display:none;}
 }
 
 
