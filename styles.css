@@ -1,16 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #C8B6FF; 
-}
-
+    background: #C8B6FF; }
 header {
     background-color: #430043; 
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
 footer {
     background-color: #430043; 
     color: #ffffff;
@@ -18,8 +15,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align: center;
-}
+    text-align: center;}
 .rope-index {display:none;}
 .header{width:100%;}
 .square-container {
@@ -52,12 +48,12 @@ footer {
     padding: 5px;
     border-radius: 5px;
     display: inline;
-    margin-left: 200px;
+    margin-left: 200px;}
     .tall-box {
     display:none;}
     .tall-box p {
     display:none;}
-}
+
 
 
 ul li {
