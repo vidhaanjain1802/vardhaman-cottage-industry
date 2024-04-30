@@ -27,24 +27,24 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    width: 10%; 
+    width: 20px; 
     height: 100%; 
     background-color: #5e548e;
     padding: 20px; 
-    overflow-y: auto;
+    overflow-y: auto;}
 .tall-box p {
     margin: 0; 
     font-size: 16px; 
     line-height: 1.5; 
   }
 
-@media only screen and (min-width:700px) 
+@media only screen and (min-width:800px) 
 {
     .rope-index{display:block;width:50%;}
     .square-container{width:60%;}
     .navigation{display:inline;}
     .highlighted-text {
-    background-color: #8644A2;
+    background-color: #5e548e;
     padding: 5px;
     border-radius: 5px;
     display: inline;
@@ -54,6 +54,9 @@ footer {
     .tall-box p {
     display:none;}
 }
+
+
+
 ul li {
     display: inline;
     margin-right: 10px;
@@ -126,3 +129,5 @@ table {
     padding-bottom: 100px;
     overflow: hidden;
 width:100%;}
+
+        
