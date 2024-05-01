@@ -1,4 +1,6 @@
-body {
+@media only screen and (min-width: 6px)
+{
+    body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: #C8B6FF; 
@@ -65,10 +67,10 @@ footer {
         display: inline;
         margin-left: 200px;
     }
-/* Hide tall-box on all screens */
 .tall-box {
     display: none;}
-.tall-box p{display:none;}}
+.tall-box p{display:none;}
+}
 ul li {
     display: inline;
     margin-right: 10px;
@@ -134,5 +136,6 @@ table {
     padding-bottom: 100px;
     overflow: hidden;
 width:100%;}
+}
 
         
