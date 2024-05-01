@@ -31,15 +31,25 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    width: 10%; /* Adjust the width as needed */
+    width: 10%; /* Set width to 10% of the page */
     height: 100%; /* Make it as tall as the viewport */
-    background-color: #301934; /* Optional: Set a background color */
+    background-color: #4b0082; /* Dark purple color */
     padding: 20px; /* Optional: Add some padding */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */}
-.tall-box p {
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    display: none; /* Initially hide the box */
+    visibility: hidden; /* Initially hide the content */
+  }
+
+  .tall-box:hover {
+    display: block; /* Show the box on hover */
+    visibility: visible; /* Show the content on hover */
+  }
+
+  .tall-box p {
     margin: 0; /* Remove default margins for paragraphs */
     font-size: 16px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height */
+    color: white; /* Set text color to white */
   }
 
 @media only screen and (min-width: 600px) {
@@ -65,10 +75,8 @@ footer {
     }
 /* Hide tall-box on all screens */
 .tall-box {
-    display: none;
-}
-.tall-box p{display:none;}
-}
+    display: none;}
+.tall-box p{display:none;}}
 ul li {
     display: inline;
     margin-right: 10px;
@@ -78,23 +86,16 @@ a {
     color: #fff;
     text-decoration: none;
 }
-
-
-
 table {
     bgcolor: #FFA500;
     text-align: center;
 }
-
-
-
 .container {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     margin: 20px auto;
 }
-
 .rope-type {
     width: 48%;
     border: 1px solid #ccc;
