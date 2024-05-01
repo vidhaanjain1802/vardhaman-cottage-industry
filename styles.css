@@ -69,6 +69,7 @@ footer {
 .tall-box {
     display: none;
 }
+.tall-box p{display:none;}
 
 ul li {
     display: inline;
