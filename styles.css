@@ -23,6 +23,7 @@ footer {
     text-align: center;
 }
 .rope-index {display:none;}
+.rope-about{display:none;}
 .header{width:100%;}
 .square-container {
     width: 100%;
@@ -52,6 +53,7 @@ footer {
         display: block;
         width: 50%;
     }
+    .rope-about{display:block}
 
     .square-container {
         width: 60%;
@@ -136,7 +138,7 @@ table {
     margin-top: 20px;
     padding-bottom: 100px;
     overflow: hidden;
-width:100%;}
+width:90%;}
 }
 
         
