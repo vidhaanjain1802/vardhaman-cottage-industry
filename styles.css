@@ -45,8 +45,7 @@ footer {
     margin: 0; /* Remove default margins for paragraphs */
     font-size: 10px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height */
-    color: white; /* Set text color to white */
-  }
+    color: white; /* Set text color to white */}
 
 @media only screen and (min-width: 600px) {
     .rope-index {
@@ -73,6 +72,23 @@ footer {
 .tall-box {
     display: none;}
 .tall-box p{display:none;}
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-image {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
 }
 ul li {
     display: inline;
@@ -113,11 +129,7 @@ table {
     height: 5%;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 .content {
     margin-bottom: 50px;
@@ -126,13 +138,6 @@ table {
 .content img {
     margin: 10px;
 }
-
-.product-image {
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 5px;
-}
-
 .container.content {
     clear: both;
     margin-top: 20px;
