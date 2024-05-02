@@ -42,7 +42,7 @@ footer {
   }
   .tall-box p {
     margin: 0; /* Remove default margins for paragraphs */
-    font-size: 16px; /* Adjust font size */
+    font-size: 10px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height */
     color: white; /* Set text color to white */
   }
