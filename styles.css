@@ -30,14 +30,14 @@ footer {
     background-color: #5e548e;}
 .navigation{display:none;}
 .tall-box {
-    align:right;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 10%;
     height: 40%;
     background-color: #4b0082; 
-    overflow-y: auto; 
+    overflow-y: auto;
+    z-index: 1;
   }
   .tall-box p {
     margin: 0; /* Remove default margins for paragraphs */
