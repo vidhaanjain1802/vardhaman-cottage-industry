@@ -33,11 +33,10 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    width: 10%; /* Set width to 10% of the page */
-    height: 100%; /* Make it as tall as the viewport */
-    background-color: #4b0082; /* Dark purple color */
-    padding: 20px; /* Optional: Add some padding */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+    width: 10%;
+    height: 60%;
+    background-color: #4b0082; 
+    overflow-y: auto; 
   }
   .tall-box p {
     margin: 0; /* Remove default margins for paragraphs */
