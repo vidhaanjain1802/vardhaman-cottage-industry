@@ -46,7 +46,7 @@ footer {
     font-size: 10px; /* Adjust font size */
     line-height: 1.5; /* Adjust line height */
     color: white; /* Set text color to white */}
-.contact-box {width: 95%;margin-bottom: 20px;}
+.contact-box {float: left;width: 95%;margin-bottom: 20px;}
 
 @media only screen and (min-width: 600px) {
     .contact-box {float: right; margin-right: 10px; width: 45%;margin-bottom: 20px;}
